@@ -32,14 +32,14 @@ public class Calculadora2Test {
     
     @Before
     public void setUp() {
-    System.out.println("Before()");
+    System.out.println("Mensaje Before");
         calc =new Calculadora2();
 
     }
     
     @After
     public void tearDown() {
-        System.out.println("after");
+        System.out.println("Mensaje After");
         calc.clear();
 
     }
