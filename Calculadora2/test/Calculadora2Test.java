@@ -24,10 +24,12 @@ public class Calculadora2Test {
     
     @BeforeClass
     public static void setUpClass() {
+        System.out.println("Mensaje 1");
     }
     
     @AfterClass
     public static void tearDownClass() {
+        System.out.println("Mensaje 2");
     }
     
     @Before
